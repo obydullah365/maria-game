@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottle Filling Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1 id="game-name">Bottle Filling Game</h1>
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 1</div>
+        </header>
+        
+        <div id="bottles-container">
+            <canvas id="gameCanvas" width="500" height="500"></canvas>
+        </div>
+        
+        <div id="color-palette">
+            <button class="color-btn" style="background-color: #FF5733;" data-color="#FF5733"></button>
+            <button class="color-btn" style="background-color: #33FF57;" data-color="#33FF57"></button>
+            <button class="color-btn" style="background-color: #3357FF;" data-color="#3357FF"></button>
+            <button class="color-btn" style="background-color: #FFD700;" data-color="#FFD700"></button>
+        </div>
+
+        <div id="ad-container">
+            <!-- Ad Space (e.g., AdSense) -->
+            <p>Ad Space: Replace with your ad content</p>
+        </div>
+
+        <footer>
+            <button id="next-level">Next Level</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
